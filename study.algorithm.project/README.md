@@ -7,4 +7,5 @@
 
 + 第二章节 基础
 
-   [2.1 数组](./file/array.md)
+   [2.1 数组](./file/array.md)  
+   [2.2 栈](./file/stack.md)
