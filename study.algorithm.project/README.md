@@ -10,4 +10,5 @@
    [2.1 数组](./file/array.md)  
    [2.2 链表](./file/link.md)  
    [2.3 栈](./file/stack.md)  
-   [2.4 队列](./file/queue.md)
+   [2.4 队列](./file/queue.md)  
+   [2.5 递归](./file/recursion.md)

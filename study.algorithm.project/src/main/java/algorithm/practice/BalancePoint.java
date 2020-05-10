@@ -13,6 +13,7 @@ public class BalancePoint {
         int[] numbers = {1, 3, 5, 7, 9 ,8, 25, 4, 9 ,20};
         List<Integer> point = getPoint(numbers);
         System.out.println(point);
+        int[][] a = {{1,2,34,5,6},{5,6,7},{8,6,7,9}};
     }
     private static  List<Integer> getPoint(int[] arr){
         List<Integer> resultList = new ArrayList<>();
