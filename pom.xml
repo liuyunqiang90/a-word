@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>study.algorithm.project</module>
+        <module>spring-sourcecode-research</module>
     </modules>
 
 
