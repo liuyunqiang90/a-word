@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.factory.support.RootBeanDefinition</OriginalElement>
+  <nodes>
+    <node x="1004.6647727272727" y="430.0">org.springframework.beans.factory.support.RootBeanDefinition</node>
+    <node x="576.125" y="105.0">org.springframework.beans.BeanMetadataElement</node>
+    <node x="1012.125" y="210.0">java.lang.Cloneable</node>
+    <node x="0.0" y="535.0">org.springframework.context.annotation.ScannedGenericBeanDefinition</node>
+    <node x="724.7897727272727" y="535.0">org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.ConfigurationClassBeanDefinition</node>
+    <node x="1065.4147727272727" y="325.0">java.lang.SuppressWarnings</node>
+    <node x="755.6647727272727" y="325.0">org.springframework.beans.factory.support.AbstractBeanDefinition</node>
+    <node x="190.75" y="430.0">org.springframework.beans.factory.support.GenericBeanDefinition</node>
+    <node x="930.125" y="0.0">java.io.Serializable</node>
+    <node x="408.717803030303" y="0.0">org.springframework.core.AttributeAccessor</node>
+    <node x="812.125" y="105.0">org.springframework.core.AttributeAccessorSupport</node>
+    <node x="688.125" y="210.0">org.springframework.beans.BeanMetadataAttributeAccessor</node>
+    <node x="768.6647727272727" y="430.0">org.springframework.beans.factory.support.ChildBeanDefinition</node>
+    <node x="404.467803030303" y="210.0">org.springframework.beans.factory.config.BeanDefinition</node>
+    <node x="315.0" y="535.0">org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.core.AttributeAccessorSupport">
+      <point x="76.0" y="-27.5" />
+      <point x="916.125" y="185.0" />
+      <point x="942.125" y="185.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.core.AttributeAccessorSupport" target="java.io.Serializable">
+      <point x="65.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.GenericBeanDefinition" target="org.springframework.beans.factory.support.AbstractBeanDefinition">
+      <point x="0.0" y="-27.5" />
+      <point x="307.25" y="405.0" />
+      <point x="795.9981060606061" y="405.0" />
+      <point x="-80.66666666666663" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="org.springframework.beans.BeanMetadataAttributeAccessor">
+      <point x="0.0" y="-27.5" />
+      <point x="876.6647727272727" y="305.0" />
+      <point x="840.125" y="305.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.ConfigurationClassBeanDefinition" target="org.springframework.beans.factory.support.RootBeanDefinition">
+      <point x="82.5" y="-27.5" />
+      <point x="972.2897727272727" y="510.0" />
+      <point x="1108.1647727272727" y="510.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="org.springframework.beans.factory.config.BeanDefinition">
+      <point x="-80.66666666666674" y="-27.5" />
+      <point x="795.998106060606" y="285.0" />
+      <point x="554.967803030303" y="285.0" />
+      <point x="64.5" y="27.5" />
+    </edge>
+    <edge source="org.springframework.context.annotation.ScannedGenericBeanDefinition" target="org.springframework.beans.factory.support.GenericBeanDefinition">
+      <point x="73.75" y="-27.5" />
+      <point x="221.25" y="510.0" />
+      <point x="249.0" y="510.0" />
+      <point x="-58.25" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.config.BeanDefinition" target="org.springframework.core.AttributeAccessor">
+      <point x="-43.0" y="-27.5" />
+      <point x="447.467803030303" y="185.0" />
+      <point x="458.217803030303" y="185.0" />
+      <point x="-49.5" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="java.lang.Cloneable">
+      <point x="80.66666666666663" y="-27.5" />
+      <point x="957.3314393939394" y="305.0" />
+      <point x="1076.125" y="305.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition" target="org.springframework.beans.factory.config.BeanDefinition">
+      <point x="78.25" y="-27.5" />
+      <point x="549.75" y="510.0" />
+      <point x="508.50757575757575" y="510.0" />
+      <point x="508.50757575757575" y="305.0" />
+      <point x="468.967803030303" y="305.0" />
+      <point x="-21.5" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.RootBeanDefinition" target="java.lang.SuppressWarnings">
+      <point x="51.75" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.beans.BeanMetadataElement">
+      <point x="-76.0" y="-27.5" />
+      <point x="764.125" y="185.0" />
+      <point x="738.125" y="185.0" />
+      <point x="54.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.ConfigurationClassBeanDefinition" target="org.springframework.beans.factory.config.BeanDefinition">
+      <point x="-82.5" y="-27.5" />
+      <point x="807.2897727272727" y="510.0" />
+      <point x="645.625" y="510.0" />
+      <point x="645.625" y="295.0" />
+      <point x="511.967803030303" y="295.0" />
+      <point x="21.5" y="27.5" />
+    </edge>
+    <edge source="org.springframework.context.annotation.ScannedGenericBeanDefinition" target="org.springframework.beans.factory.config.BeanDefinition">
+      <point x="-73.75" y="-27.5" />
+      <point x="73.75" y="510.0" />
+      <point x="115.75757575757575" y="510.0" />
+      <point x="115.75757575757575" y="305.0" />
+      <point x="425.967803030303" y="305.0" />
+      <point x="-64.5" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.ChildBeanDefinition" target="org.springframework.beans.factory.support.AbstractBeanDefinition">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.core.AttributeAccessorSupport" target="org.springframework.core.AttributeAccessor">
+      <point x="-65.0" y="-27.5" />
+      <point x="877.125" y="80.0" />
+      <point x="557.217803030303" y="80.0" />
+      <point x="49.5" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition" target="org.springframework.beans.factory.support.GenericBeanDefinition">
+      <point x="-78.25" y="-27.5" />
+      <point x="393.25" y="510.0" />
+      <point x="365.5" y="510.0" />
+      <point x="58.25" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.config.BeanDefinition" target="org.springframework.beans.BeanMetadataElement">
+      <point x="43.0" y="-27.5" />
+      <point x="533.467803030303" y="185.0" />
+      <point x="630.125" y="185.0" />
+      <point x="-54.0" y="27.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.RootBeanDefinition" target="org.springframework.beans.factory.support.AbstractBeanDefinition">
+      <point x="-51.75" y="-27.5" />
+      <point x="1056.4147727272727" y="405.0" />
+      <point x="957.3314393939395" y="405.0" />
+      <point x="80.66666666666674" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9176262178919398" x="637.3223938223938" y="326.0246138996139" />
+  <SelectedNodes>
+    <node>org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

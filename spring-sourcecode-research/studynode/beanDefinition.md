@@ -36,4 +36,5 @@ RootBeanDefinition 只能做父级beanDefinition
 ChildBeanDefinition 只能做子级beanDefinition  
 GenericBeanDefinition可以完全替代ChildBeanDefinition但是不能替代RootBeanDefinition因为merge的时候返回的是RootBeanDefinition（AbstractBeanFactory.getMergedBeanDefinition，这个方法进行merge）         
 所有在xml中定义的bean都是GenericBeanDefinition    
-AnnotatedGenericBeanDefinition 这个类主要是解析我们定义的配置类AppConfig.class,换句话说是被@Configuration注释的类，ScannedGenericBeanDefinition 是解析有@Component只是的bean
+AnnotatedGenericBeanDefinition 这个类主要是解析我们定义的配置类AppConfig.class,换句话说是被@Configuration注释的类，ScannedGenericBeanDefinition 是解析有@Component注释的bean  
+ ![beanDefinition](./image/RootBeanDefinition.png)   
