@@ -59,3 +59,7 @@ default-autowire="byType" 这种自动注入方式是通过类型注入，也就
 3、FactoryBean
 以上三种方式是对象的是对象的实例化过程由你自己去控制
 @Component，是把一个类交给spring管理，完全由spring去控制对象的实例化
+
+### 补充 
+![singlon](./image/6.png)  
+default-autowire="byName" 这种方式是根据属性的名称来进行注入的，必须要提供set方法。

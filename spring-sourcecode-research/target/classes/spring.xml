@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       					   http://www.springframework.org/schema/beans/spring-beans.xsd"
+	   default-autowire="constructor">
+	<!-- 这种方法叫做手动装配，不叫自动装配，缺点就是要写很多property属性注入-->
+	<bean id="dao1" class="com.yun.dynamicagent.impl.UserDaoImpl">
+		<!-- 在AccountService这个bean中注入YunService，也就是实例化YunService一定要提供Set方法-->
+		<!-- property属性的名字一定要和set方法的名字一样setYunService，取yunService或者YunService都可以，这种注入方式有一个弊端
+		就是，如果AccountService中有很多属性，那你就要增加很多property属性配置-->
+		<!--<property name="yunService">
+			<ref bean="yunService"></ref>
+		</property>-->
+	</bean>
+	<bean id="dao2" autowire-candidate="false" class="com.yun.dynamicagent.impl.UserDaoImpl2">
+
+	</bean>
+	<bean id="yunService" class="com.yun.service.YunService">
+
+	</bean>
+</beans>

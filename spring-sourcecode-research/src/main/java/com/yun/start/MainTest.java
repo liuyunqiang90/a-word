@@ -2,15 +2,32 @@ package com.yun.start;
 
 import com.yun.app.AppConfig;
 import com.yun.service.YunService;
+import com.yun.service.ZhaoService;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.support.GenericBeanDefinition;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainTest {
 
     public static void main(String[] args) {
+//        /**
+//         * 如何手动将一个ZhaoService放到beanDefinitionMap中
+//         * 1、首先肯定得new 一个BeanDefinition但是用哪个实现类呢？
+//         */
         AnnotationConfigApplicationContext aac = new AnnotationConfigApplicationContext(AppConfig.class);
-        YunService bean = aac.getBean(YunService.class);
-        bean.get();
-        System.out.println(bean);
+
+        GenericBeanDefinition gb = new GenericBeanDefinition();
+//        gb.setBeanClass(ZhaoService.class);
+//        gb.setAbstract(true);
+//        aac.registerBean("zhaoService",ZhaoService.class);
+//        aac.refresh();
+//        System.out.println(aac.getBean(ZhaoService.class));
+
+//        ApplicationContext app = new ClassPathXmlApplicationContext("spring.xml");
+//        YunService yunService = app.getBean(YunService.class);
+//        System.out.println(yunService);
 
     }
 }

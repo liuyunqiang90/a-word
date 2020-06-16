@@ -2,7 +2,7 @@ package com.yun.dynamicagent.inter;
 
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public interface UserDao {
 
 //    @Select

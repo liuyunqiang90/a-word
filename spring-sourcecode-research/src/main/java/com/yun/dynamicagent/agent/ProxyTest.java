@@ -10,6 +10,10 @@ public class ProxyTest implements InvocationHandler {
 
     private UserDao userDao;
 
+    public ProxyTest(UserDao userDao) {
+        this.userDao = userDao;
+    }
+
     public UserDao createProxy(){
         UserDao dao = (UserDao)Proxy.newProxyInstance(userDao.getClass().getClassLoader(), userDao.getClass().getInterfaces(), this);
 
@@ -17,6 +21,8 @@ public class ProxyTest implements InvocationHandler {
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return null;
+
+        System.out.println("1111111");
+        return method.invoke(userDao,null);
     }
 }
