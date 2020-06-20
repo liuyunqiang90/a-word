@@ -57,7 +57,7 @@ default-autowire="byType" 这种自动注入方式是通过类型注入，也就
 1、@Bean注解 
 2、aac.getBeanFactory().registerSingleton("xxx",Xxx.class);
 3、FactoryBean
-以上三种方式是对象的是对象的实例化过程由你自己去控制
+以上三种方式是对象的实例化过程由你自己去控制。
 @Component，是把一个类交给spring管理，完全由spring去控制对象的实例化
 
 ### 补充 
