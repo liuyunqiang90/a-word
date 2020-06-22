@@ -1,6 +1,7 @@
 package com.yun.start;
 
 import com.yun.app.AppConfig;
+import com.yun.postprocess.LiuBeanFactoryPostprocessor;
 import com.yun.service.YunService;
 import com.yun.service.ZhaoService;
 import org.springframework.beans.factory.BeanFactory;
@@ -17,8 +18,10 @@ public class MainTest {
 //         * 1、首先肯定得new 一个BeanDefinition但是用哪个实现类呢？
 //         */
         AnnotationConfigApplicationContext aac = new AnnotationConfigApplicationContext(AppConfig.class);
-
-        GenericBeanDefinition gb = new GenericBeanDefinition();
+//        aac.register(AppConfig.class);
+        aac.addBeanFactoryPostProcessor(new LiuBeanFactoryPostprocessor());
+//        aac.refresh();
+//        GenericBeanDefinition gb = new GenericBeanDefinition();
 //        gb.setBeanClass(ZhaoService.class);
 //        gb.setAbstract(true);
 //        aac.registerBean("zhaoService",ZhaoService.class);
